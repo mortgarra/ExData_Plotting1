@@ -26,7 +26,8 @@ CreatePlot4 <- function()
     with(PlotData, plot(Time, 
                         Global_active_power, 
                         type="l", 
-                        ylab="Global Active Power"))
+                        ylab="Global Active Power",
+                        xlab=""))
 
     #Add Plot2
     with(PlotData, plot(Time, 

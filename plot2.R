@@ -23,7 +23,8 @@ CreatePlot2 <- function()
 	with(PlotData, plot(Time, 
 						Global_active_power, 
 						type="l", 
-						ylab="Global Active Power (kilowatts)"))
+						ylab="Global Active Power (kilowatts)",
+						xlab=""))
 
 	dev.off()
 }
